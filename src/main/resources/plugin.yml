@@ -1,0 +1,10 @@
+name: NightVision
+version: ${1.0}
+main: io.github.carnivorousdog.nightvision.NightVision
+api-version: 1.17
+commands:
+  nv:
+    description: Toggle Night Vision
+    usage: /nv
+    permission: nightvision.nv
+    permission-message: You don't have permission to toggle nightvision.
