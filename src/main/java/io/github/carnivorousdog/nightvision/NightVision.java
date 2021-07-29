@@ -40,7 +40,6 @@ public final class NightVision extends JavaPlugin {
 
             Player player = (Player)sender;
 
-            //Dis
             if(player.hasPotionEffect(PotionEffectType.NIGHT_VISION)){
                 player.removePotionEffect(PotionEffectType.NIGHT_VISION);       //Turns off NightVision if on.
                 sender.sendMessage("NightVision off.");
